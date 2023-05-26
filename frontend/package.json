@@ -19,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "nodemon app.js",
+    "build": "npm i",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
