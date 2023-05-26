@@ -34,9 +34,9 @@ function Dashboard() {
                                     {dollar} {totalExpenses()}
                                 </p>
                             </div>
-                            <div className="balance">
-                                <h2>Total Balance</h2>
-                                <p>
+                            <div className="bg-[#FCF6F9] p-8 shadow-sm rounded-3xl border-[#FFFFFF] border-2 flex-col justify-center items-center flex col-span-3">
+                                <h2 className='text-2xl'>Total Balance</h2>
+                                <p className='text-4xl'>
                                     {dollar} {totalBalance()}
                                 </p>
                             </div>
